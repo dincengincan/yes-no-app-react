@@ -4,9 +4,9 @@ An app built with React.
 
 ## Demo
 
-Use the app online at https://dincengincan.github.io/bar-app-react-redux/
+Use the app online at
 
-![barapp GIF](demo/barapp.gif)
+![yesnoapp GIF](demo/barapp.gif)
 
 ## Technologies Used
 
