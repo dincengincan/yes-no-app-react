@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(71, 71, 71);
+}
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  margin: 100px auto;
+  text-align: center;
+  background-color: salmon;
+  width: 80%;
+  padding: 40px;
+  border: 5px solid rgb(184, 184, 184);
+  border-radius: 100px;
+  box-shadow: rgb(49, 49, 49) 2px 2px 40px 5px;
+}
+
+.response-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.response-image {
+  margin-left: 40px;
+  height: 120px;
+}
+h1,
+h2 {
+  color: seashell;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  font-weight: lighter;
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h3,
+h4 {
+  font-size: 20px;
+  font-weight: normal;
+  color: seashell;
+}
+
+input {
+  padding: 10px;
+  border-radius: 40px;
+  width: 40%;
+  border: 1px solid rgb(206, 206, 206);
+  outline: none;
+  margin-top: 0px;
+}
+
+input:hover {
+  box-shadow: rgb(146, 146, 146) 2px 2px 20px 1px;
+}
+
+input:focus {
+  box-shadow: rgb(146, 146, 146) 2px 2px 20px 1px;
+}
+
+button {
+  padding: 10px;
+  width: 15%;
+  border-radius: 40px;
+  margin-left: 20px;
+  border: none;
+  background-color: rgb(165, 165, 165);
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
+.button-disabled {
+  pointer-events: none;
+  background-color: rgb(95, 95, 95);
+  color: rgb(170, 170, 170);
+}
+button:hover {
+  background-color: rgb(197, 197, 197);
+}
+button:active {
+  background-color: rgb(153, 153, 153);
+}
+.notification {
+  color: firebrick;
+}
+
+.loading-text {
+  font-weight: lighter;
+  font-size: 20px;
+}
